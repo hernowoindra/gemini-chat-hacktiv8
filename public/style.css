@@ -1,0 +1,23 @@
+#chat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 10px 14px;
+  border-radius: 20px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+.message.bot {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+  border: 1px solid var(--bs-secondary);
+}
